@@ -17,7 +17,7 @@ section, nav, footer {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-    width: 60vw;
+    width: 70vw;
     margin: 50px auto;
 }
 
@@ -78,4 +78,20 @@ nav {
 video {
     margin: 30px auto;
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+
+section, nav, footer {
+        margin: 20px auto;
+        width: 90vw;
+    }
+
+table.info {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
 }
