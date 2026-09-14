@@ -1,4 +1,81 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Basic Styles */
 body {
-    
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(20,20,40);
+  color: white;
+}
+
+section, nav, footer {
+    background-color: rgb(0,0,20);
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 60vw;
+    margin: 50px auto;
+}
+
+h1, h2, h3, p, nav a {
+    margin: 10px;
+}
+
+a:link {
+    color: #99ccff;
+}
+
+a:visited {
+    color: #ffccff;
+}
+
+table.info, table.info th, table.info td {
+    border: 1px solid lightslategray;
+    padding: 10px;
+}
+
+table.info {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px auto 30px auto;
+    width: 100%;
+}
+
+table.screens, table.screens th, table.screens td {
+    border-top: 1px solid lightslategray;
+    padding: 10px;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3.table {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+footer, nav {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+video {
+    margin: 30px auto;
+    display: block;
 }
